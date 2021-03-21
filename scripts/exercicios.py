@@ -1,7 +1,8 @@
 # =============================================================================
 # Exercicios
 # =============================================================================
-
+import os, sys
+sys.path.append(os.getcwd())
 from funcoes_emparelhamento import EspalhamentoPorDivisao, EspalhamentoPorMultiplicacao
 
 def Exercicio1a():
